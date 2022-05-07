@@ -36,7 +36,7 @@ public class ModBlocks {
     }
 
     //BLOCKS
-    public static final RegistryObject<Block> SAPPHIRE_BLOCK = registerBlock("sapphire_ore", ()->
+    public static final RegistryObject<Block> SAPPHIRE_ORE = registerBlock("sapphire_ore", ()->
             new Block(BlockBehaviour.Properties.of(Material.AMETHYST, MaterialColor.COLOR_BLUE)
                     .sound(SoundType.AMETHYST)
                     .requiresCorrectToolForDrops()
