@@ -15,9 +15,18 @@ public class ModItems {
         ITEMS.register(eventBus);
     }
 
+    //ITEMS
     public static final RegistryObject<Item> SAPPHIRE = ITEMS.register("sapphire", ()-> new Item(new Item.Properties()
-            .tab(CreativeModeTab.TAB_MATERIALS)
-            .rarity(Rarity.RARE)
+            .tab(ModItemGroup.GEMOLOGY_GROUP)
+    ));
+    public static final RegistryObject<Item> RUBY = ITEMS.register("ruby", ()-> new Item(new Item.Properties()
+            .tab(ModItemGroup.GEMOLOGY_GROUP)
+    ));
+    public static final RegistryObject<Item> SAPPHIRE_CRYSTAL = ITEMS.register("sapphirecrystal", ()-> new Item(new Item.Properties()
+            .tab(ModItemGroup.GEMOLOGY_GROUP)
+    ));
+    public static final RegistryObject<Item> RUBY_CRYSTAL = ITEMS.register("rubycrystal", ()-> new Item(new Item.Properties()
+            .tab(ModItemGroup.GEMOLOGY_GROUP)
     ));
 
 }
