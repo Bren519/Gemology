@@ -11,6 +11,12 @@
 
   "block.gemology.sapphire_ore": "Sapphire Block",
   "block.gemology.ruby_ore": "Ruby Block",
-  "block.gemology.topaz_ore": "Topaz Block"
-
+  "block.gemology.topaz_ore": "Topaz Block",
+  "block.gemology.amethyst_block": "Block of Cut Amethyst",
+  "block.gemology.sapphire_block": "Block of Cut Sapphire",
+  "block.gemology.ruby_block": "Block of Cut Ruby",
+  "block.gemology.topaz_block": "Block of Cut Topaz",
+  "block.gemology.sapphire_cluster": "Sapphire Cluster",
+  "block.gemology.ruby_cluster": "Ruby Cluster",
+  "block.gemology.topaz_cluster": "Topaz Cluster"
 }
