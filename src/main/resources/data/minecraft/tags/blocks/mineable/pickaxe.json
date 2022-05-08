@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "gemology:sapphire_ore"
+    "gemology:sapphire_ore",
+    "gemology:ruby_ore",
+    "gemology:topaz_ore"
   ]
 }
