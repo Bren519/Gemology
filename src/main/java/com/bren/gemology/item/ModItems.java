@@ -16,6 +16,10 @@ public class ModItems {
     }
 
     //ITEMS
+
+    public static final RegistryObject<Item> AMETHYST = ITEMS.register("amethyst", ()-> new Item(new Item.Properties()
+            .tab(ModItemGroup.GEMOLOGY_GROUP)
+    ));
     public static final RegistryObject<Item> SAPPHIRE = ITEMS.register("sapphire", ()-> new Item(new Item.Properties()
             .tab(ModItemGroup.GEMOLOGY_GROUP)
     ));

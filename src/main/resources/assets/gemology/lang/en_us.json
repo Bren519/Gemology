@@ -1,12 +1,16 @@
 {
   "itemGroup.Gemology": "Gemology",
+
+  "item.gemology.amethyst": "Amethyst",
   "item.gemology.sapphire": "Sapphire",
   "item.gemology.ruby": "Ruby",
   "item.gemology.topaz": "Topaz",
   "item.gemology.sapphire_crystal": "Sapphire Crystal",
   "item.gemology.ruby_crystal": "Ruby Crystal",
   "item.gemology.topaz_crystal": "Topaz Crystal",
+
   "block.gemology.sapphire_ore": "Sapphire Block",
   "block.gemology.ruby_ore": "Ruby Block",
   "block.gemology.topaz_ore": "Topaz Block"
+
 }
