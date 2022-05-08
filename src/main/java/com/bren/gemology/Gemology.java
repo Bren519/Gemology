@@ -3,6 +3,8 @@ package com.bren.gemology;
 import com.bren.gemology.block.ModBlocks;
 import com.bren.gemology.item.ModItems;
 import com.mojang.logging.LogUtils;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -47,9 +49,9 @@ public class Gemology
 
     private void setup(final FMLCommonSetupEvent event)
     {
-        // some preinit code
-        LOGGER.info("HELLO FROM PREINIT");
-        LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.SAPPHIRE_CLUSTER.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.RUBY_CLUSTER.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.TOPAZ_CLUSTER.get(), RenderType.translucent());
     }
 
     private void enqueueIMC(final InterModEnqueueEvent event)

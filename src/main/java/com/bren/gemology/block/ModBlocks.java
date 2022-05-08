@@ -5,7 +5,9 @@ import com.bren.gemology.item.ModItemGroup;
 import com.bren.gemology.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.level.block.AmethystClusterBlock;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
@@ -87,4 +89,17 @@ public class ModBlocks {
                     .strength(6)
                     .destroyTime(5)
             ));
+    public static final RegistryObject<Block> SAPPHIRE_CLUSTER = registerBlock("sapphire_cluster", ()->
+            new AmethystClusterBlock(7, 3, BlockBehaviour.Properties.copy(Blocks.AMETHYST_CLUSTER)
+
+            ));
+    public static final RegistryObject<Block> RUBY_CLUSTER = registerBlock("ruby_cluster", ()->
+            new AmethystClusterBlock(7, 3, BlockBehaviour.Properties.copy(Blocks.AMETHYST_CLUSTER)
+
+            ));
+    public static final RegistryObject<Block> TOPAZ_CLUSTER = registerBlock("topaz_cluster", ()->
+            new AmethystClusterBlock(7, 3, BlockBehaviour.Properties.copy(Blocks.AMETHYST_CLUSTER)
+
+            ));
+
 }
