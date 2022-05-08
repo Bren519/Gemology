@@ -59,4 +59,32 @@ public class ModBlocks {
                     .strength(1.5f)
                     .destroyTime(1.5f)
             ));
+    public static final RegistryObject<Block> POLISHED_AMETHYST = registerBlock("amethyst_block", ()->
+            new Block(BlockBehaviour.Properties.of(Material.AMETHYST, MaterialColor.COLOR_BLUE)
+                    .sound(SoundType.AMETHYST)
+                    .requiresCorrectToolForDrops()
+                    .strength(6)
+                    .destroyTime(5)
+            ));
+    public static final RegistryObject<Block> POLISHED_SAPPHIRE = registerBlock("sapphire_block", ()->
+            new Block(BlockBehaviour.Properties.of(Material.AMETHYST, MaterialColor.COLOR_BLUE)
+                    .sound(SoundType.AMETHYST)
+                    .requiresCorrectToolForDrops()
+                    .strength(6)
+                    .destroyTime(5)
+            ));
+    public static final RegistryObject<Block> POLISHED_RUBY = registerBlock("ruby_block", ()->
+            new Block(BlockBehaviour.Properties.of(Material.AMETHYST, MaterialColor.COLOR_BLUE)
+                    .sound(SoundType.AMETHYST)
+                    .requiresCorrectToolForDrops()
+                    .strength(6)
+                    .destroyTime(5)
+            ));
+    public static final RegistryObject<Block> POLISHED_TOPAZ = registerBlock("topaz_block", ()->
+            new Block(BlockBehaviour.Properties.of(Material.AMETHYST, MaterialColor.COLOR_BLUE)
+                    .sound(SoundType.AMETHYST)
+                    .requiresCorrectToolForDrops()
+                    .strength(6)
+                    .destroyTime(5)
+            ));
 }
