@@ -22,11 +22,16 @@ public class ModItems {
     public static final RegistryObject<Item> RUBY = ITEMS.register("ruby", ()-> new Item(new Item.Properties()
             .tab(ModItemGroup.GEMOLOGY_GROUP)
     ));
-    public static final RegistryObject<Item> SAPPHIRE_CRYSTAL = ITEMS.register("sapphirecrystal", ()-> new Item(new Item.Properties()
+    public static final RegistryObject<Item> TOPAZ = ITEMS.register("topaz", ()-> new Item(new Item.Properties()
             .tab(ModItemGroup.GEMOLOGY_GROUP)
     ));
-    public static final RegistryObject<Item> RUBY_CRYSTAL = ITEMS.register("rubycrystal", ()-> new Item(new Item.Properties()
+    public static final RegistryObject<Item> SAPPHIRE_CRYSTAL = ITEMS.register("sapphire_crystal", ()-> new Item(new Item.Properties()
             .tab(ModItemGroup.GEMOLOGY_GROUP)
     ));
-
+    public static final RegistryObject<Item> RUBY_CRYSTAL = ITEMS.register("ruby_crystal", ()-> new Item(new Item.Properties()
+            .tab(ModItemGroup.GEMOLOGY_GROUP)
+    ));
+    public static final RegistryObject<Item> TOPAZ_CRYSTAL = ITEMS.register("topaz_crystal", ()-> new Item(new Item.Properties()
+            .tab(ModItemGroup.GEMOLOGY_GROUP)
+    ));
 }

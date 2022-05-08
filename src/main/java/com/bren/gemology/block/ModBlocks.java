@@ -43,4 +43,17 @@ public class ModBlocks {
                     .strength(1)
             ));
 
+    public static final RegistryObject<Block> RUBY_ORE = registerBlock("ruby_ore", ()->
+            new Block(BlockBehaviour.Properties.of(Material.AMETHYST, MaterialColor.COLOR_BLUE)
+                    .sound(SoundType.AMETHYST)
+                    .requiresCorrectToolForDrops()
+                    .strength(1)
+            ));
+
+    public static final RegistryObject<Block> TOPAZ_ORE = registerBlock("topaz_ore", ()->
+            new Block(BlockBehaviour.Properties.of(Material.AMETHYST, MaterialColor.COLOR_BLUE)
+                    .sound(SoundType.AMETHYST)
+                    .requiresCorrectToolForDrops()
+                    .strength(1)
+            ));
 }
