@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values" : [
+    "gemology:sapphire_block",
+    "gemology:ruby_block",
+    "gemology:topaz_block",
+    "gemology:amethyst_block"
+  ]
+}
