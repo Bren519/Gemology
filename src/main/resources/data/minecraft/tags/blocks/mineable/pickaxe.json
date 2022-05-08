@@ -1,6 +1,12 @@
 {
   "replace": false,
   "values": [
-    "gemology:sapphire_ore"
+    "gemology:sapphire_ore",
+    "gemology:ruby_ore",
+    "gemology:topaz_ore",
+    "gemology:amethyst_block",
+    "gemology:sapphire_block",
+    "gemology:ruby_block",
+    "gemology:topaz_block"
   ]
 }
