@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "gemology:block/topaz_cluster",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "gemology:block/topaz_cluster",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "gemology:block/topaz_cluster",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "gemology:block/topaz_cluster",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "gemology:block/topaz_cluster"
+    },
+    "facing=west": {
+      "model": "gemology:block/topaz_cluster",
+      "x": 90,
+      "y": 270
+    }
+  }
+}
