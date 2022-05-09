@@ -62,6 +62,34 @@ public class ModBlocks {
                     .strength(1.5f)
                     .destroyTime(1.5f)
             ));
+
+    public static final RegistryObject<Block> SAPPHIRE_BUDDING_ORE = registerBlock("budding_sapphire", ()->
+            new Block(BlockBehaviour.Properties.of(Material.AMETHYST, MaterialColor.COLOR_BLUE)
+                    .sound(SoundType.AMETHYST)
+                    .requiresCorrectToolForDrops()
+                    .strength(1.5f)
+                    .destroyTime(1.5f)
+            ));
+
+    public static final RegistryObject<Block> RUBY_BUDDING_ORE = registerBlock("budding_ruby", ()->
+            new Block(BlockBehaviour.Properties.of(Material.AMETHYST, MaterialColor.COLOR_BLUE)
+                    .sound(SoundType.AMETHYST)
+                    .requiresCorrectToolForDrops()
+                    .strength(1.5f)
+                    .destroyTime(1.5f)
+            ));
+
+    public static final RegistryObject<Block> TOPAZ_BUDDING_ORE = registerBlock("budding_topaz", ()->
+            new Block(BlockBehaviour.Properties.of(Material.AMETHYST, MaterialColor.COLOR_BLUE)
+                    .sound(SoundType.AMETHYST)
+                    .requiresCorrectToolForDrops()
+                    .strength(1.5f)
+                    .destroyTime(1.5f)
+            ));
+
+
+
+
     public static final RegistryObject<Block> POLISHED_AMETHYST = registerBlock("amethyst_block", ()->
             new Block(BlockBehaviour.Properties.of(Material.AMETHYST, MaterialColor.COLOR_BLUE)
                     .sound(SoundType.AMETHYST)

@@ -44,7 +44,7 @@ public class ModConfiguredFeatures
             FeatureUtils.register("sapphire_geode", Feature.GEODE, new GeodeConfiguration(
                     new GeodeBlockSettings(BlockStateProvider.simple(Blocks.AIR),
                             BlockStateProvider.simple(ModBlocks.SAPPHIRE_ORE.get()),
-                            BlockStateProvider.simple(Blocks.BUDDING_AMETHYST),
+                            BlockStateProvider.simple(ModBlocks.SAPPHIRE_BUDDING_ORE.get()),
                             BlockStateProvider.simple(Blocks.CALCITE),
                             BlockStateProvider.simple(Blocks.SMOOTH_BASALT),
                             Arrays.asList(
@@ -65,7 +65,7 @@ public class ModConfiguredFeatures
             FeatureUtils.register("ruby_geode", Feature.GEODE, new GeodeConfiguration(
                     new GeodeBlockSettings(BlockStateProvider.simple(Blocks.AIR),
                             BlockStateProvider.simple(ModBlocks.RUBY_ORE.get()),
-                            BlockStateProvider.simple(Blocks.BUDDING_AMETHYST),
+                            BlockStateProvider.simple(ModBlocks.RUBY_BUDDING_ORE.get()),
                             BlockStateProvider.simple(Blocks.CALCITE),
                             BlockStateProvider.simple(Blocks.SMOOTH_BASALT),
                             Arrays.asList(
@@ -86,7 +86,7 @@ public class ModConfiguredFeatures
             FeatureUtils.register("topaz_geode", Feature.GEODE, new GeodeConfiguration(
                     new GeodeBlockSettings(BlockStateProvider.simple(Blocks.AIR),
                             BlockStateProvider.simple(ModBlocks.TOPAZ_ORE.get()),
-                            BlockStateProvider.simple(Blocks.BUDDING_AMETHYST),
+                            BlockStateProvider.simple(ModBlocks.TOPAZ_BUDDING_ORE.get()),
                             BlockStateProvider.simple(Blocks.CALCITE),
                             BlockStateProvider.simple(Blocks.SMOOTH_BASALT),
                             Arrays.asList(
