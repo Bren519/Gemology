@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "minecraft:block/budding_sapphire"
+      "model": "gemology:block/budding_sapphire"
     }
   }
 }

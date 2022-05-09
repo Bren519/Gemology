@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "minecraft:block/budding_ruby"
+      "model": "gemology:block/budding_ruby"
     }
   }
 }
