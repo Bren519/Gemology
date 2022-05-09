@@ -3,6 +3,7 @@ package com.bren.gemology.block;
 import com.bren.gemology.Gemology;
 import com.bren.gemology.item.ModItemGroup;
 import com.bren.gemology.item.ModItems;
+import com.bren.gemology.world.feature.cave.SapphireGeode;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.AmethystClusterBlock;
@@ -91,15 +92,19 @@ public class ModBlocks {
             ));
     public static final RegistryObject<Block> SAPPHIRE_CLUSTER = registerBlock("sapphire_cluster", ()->
             new AmethystClusterBlock(7, 3, BlockBehaviour.Properties.copy(Blocks.AMETHYST_CLUSTER)
-
+                    .strength(1.5f)
+                    .destroyTime(1.5f)
             ));
     public static final RegistryObject<Block> RUBY_CLUSTER = registerBlock("ruby_cluster", ()->
             new AmethystClusterBlock(7, 3, BlockBehaviour.Properties.copy(Blocks.AMETHYST_CLUSTER)
-
+                    .strength(1.5f)
+                    .destroyTime(1.5f)
             ));
     public static final RegistryObject<Block> TOPAZ_CLUSTER = registerBlock("topaz_cluster", ()->
             new AmethystClusterBlock(7, 3, BlockBehaviour.Properties.copy(Blocks.AMETHYST_CLUSTER)
-
+                    .strength(1.5f)
+                    .destroyTime(1.5f)
             ));
+
 
 }

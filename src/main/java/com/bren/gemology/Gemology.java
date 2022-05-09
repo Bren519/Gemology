@@ -2,6 +2,7 @@ package com.bren.gemology;
 
 import com.bren.gemology.block.ModBlocks;
 import com.bren.gemology.item.ModItems;
+import com.bren.gemology.world.feature.cave.SapphireGeode;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
