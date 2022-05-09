@@ -1,5 +1,5 @@
   {
-  "parent": "item/topaz_bud",
+  "parent": "item/generated",
   "textures": {
     "layer0": "gemology:block/medium_topaz_bud"
   },
