@@ -1,0 +1,11 @@
+  {
+  "parent": "item/ruby_bud",
+  "textures": {
+    "layer0": "gemology:block/small_ruby_bud"
+  },
+  "display": {
+    "fixed": {
+      "translation": [ 0, 0, 0 ]
+    }
+  }
+}
