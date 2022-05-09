@@ -7,6 +7,9 @@
     "gemology:amethyst_block",
     "gemology:sapphire_block",
     "gemology:ruby_block",
-    "gemology:topaz_block"
+    "gemology:topaz_block",
+    "gemology:sapphire_cluster",
+    "gemology:ruby_cluster",
+    "gemology:topaz_cluster"
   ]
 }

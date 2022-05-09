@@ -1,0 +1,11 @@
+  {
+  "parent": "item/topaz_bud",
+  "textures": {
+    "layer0": "gemology:block/large_topaz_bud"
+  },
+  "display": {
+    "fixed": {
+      "translation": [ 0, 0, 0 ]
+    }
+  }
+}

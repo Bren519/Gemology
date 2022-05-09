@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "gemology:block/medium_sapphire_bud",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "gemology:block/medium_sapphire_bud",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "gemology:block/medium_sapphire_bud",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "gemology:block/medium_sapphire_bud",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "gemology:block/medium_sapphire_bud"
+    },
+    "facing=west": {
+      "model": "gemology:block/medium_sapphire_bud",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "gemology:amethyst"
+    }
+  },
+  "result": {
+    "item": "gemology:amethyst_block"
+  }
+}
