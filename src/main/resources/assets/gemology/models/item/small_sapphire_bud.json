@@ -1,5 +1,5 @@
   {
-  "parent": "item/sapphire_bud",
+  "parent": "item/generated",
   "textures": {
     "layer0": "gemology:block/small_sapphire_bud"
   },
