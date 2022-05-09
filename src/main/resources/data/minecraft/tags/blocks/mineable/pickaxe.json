@@ -10,6 +10,9 @@
     "gemology:topaz_block",
     "gemology:sapphire_cluster",
     "gemology:ruby_cluster",
-    "gemology:topaz_cluster"
+    "gemology:topaz_cluster",
+    "gemology:budding_sapphire",
+    "gemology:budding_ruby",
+    "gemology:budding_topaz"
   ]
 }

@@ -18,5 +18,8 @@
   "block.gemology.topaz_block": "Block of Cut Topaz",
   "block.gemology.sapphire_cluster": "Sapphire Cluster",
   "block.gemology.ruby_cluster": "Ruby Cluster",
-  "block.gemology.topaz_cluster": "Topaz Cluster"
+  "block.gemology.topaz_cluster": "Topaz Cluster",
+  "block.gemology.budding_sapphire": "Budding Sapphire",
+  "block.gemology.budding_ruby": "Budding Ruby",
+  "block.gemology.budding_topaz": "Budding Topaz"
 }
