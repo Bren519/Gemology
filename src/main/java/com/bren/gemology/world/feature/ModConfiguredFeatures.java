@@ -48,9 +48,9 @@ public class ModConfiguredFeatures
                             BlockStateProvider.simple(Blocks.CALCITE),
                             BlockStateProvider.simple(Blocks.SMOOTH_BASALT),
                             Arrays.asList(
-                                    Blocks.SMALL_AMETHYST_BUD.defaultBlockState(),
-                                    Blocks.MEDIUM_AMETHYST_BUD.defaultBlockState(),
-                                    Blocks.LARGE_AMETHYST_BUD.defaultBlockState(),
+                                    ModBlocks.SMALL_SAPPHIRE_BUD.get().defaultBlockState(),
+                                    ModBlocks.MEDIUM_SAPPHIRE_BUD.get().defaultBlockState(),
+                                    ModBlocks.LARGE_SAPPHIRE_BUD.get().defaultBlockState(),
                                     ModBlocks.SAPPHIRE_CLUSTER.get().defaultBlockState()
                                     ),
                             BlockTags.FEATURES_CANNOT_REPLACE, BlockTags.GEODE_INVALID_BLOCKS),
@@ -69,9 +69,9 @@ public class ModConfiguredFeatures
                             BlockStateProvider.simple(Blocks.CALCITE),
                             BlockStateProvider.simple(Blocks.SMOOTH_BASALT),
                             Arrays.asList(
-                                    Blocks.SMALL_AMETHYST_BUD.defaultBlockState(),
-                                    Blocks.MEDIUM_AMETHYST_BUD.defaultBlockState(),
-                                    Blocks.LARGE_AMETHYST_BUD.defaultBlockState(),
+                                    ModBlocks.SMALL_RUBY_BUD.get().defaultBlockState(),
+                                    ModBlocks.MEDIUM_RUBY_BUD.get().defaultBlockState(),
+                                    ModBlocks.LARGE_RUBY_BUD.get().defaultBlockState(),
                                     ModBlocks.RUBY_CLUSTER.get().defaultBlockState()
                             ),
                             BlockTags.FEATURES_CANNOT_REPLACE, BlockTags.GEODE_INVALID_BLOCKS),
@@ -90,9 +90,9 @@ public class ModConfiguredFeatures
                             BlockStateProvider.simple(Blocks.CALCITE),
                             BlockStateProvider.simple(Blocks.SMOOTH_BASALT),
                             Arrays.asList(
-                                    Blocks.SMALL_AMETHYST_BUD.defaultBlockState(),
-                                    Blocks.MEDIUM_AMETHYST_BUD.defaultBlockState(),
-                                    Blocks.LARGE_AMETHYST_BUD.defaultBlockState(),
+                                    ModBlocks.SMALL_TOPAZ_BUD.get().defaultBlockState(),
+                                    ModBlocks.MEDIUM_TOPAZ_BUD.get().defaultBlockState(),
+                                    ModBlocks.LARGE_TOPAZ_BUD.get().defaultBlockState(),
                                     ModBlocks.TOPAZ_CLUSTER.get().defaultBlockState()
                             ),
                             BlockTags.FEATURES_CANNOT_REPLACE, BlockTags.GEODE_INVALID_BLOCKS),
