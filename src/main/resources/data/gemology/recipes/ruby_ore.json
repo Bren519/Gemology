@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "gemology:ruby_crystal"
+    }
+  },
+  "result": {
+    "item": "gemology:ruby_ore"
+  }
+}
