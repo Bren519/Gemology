@@ -51,6 +51,16 @@ public class Gemology
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.SAPPHIRE_CLUSTER.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.RUBY_CLUSTER.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.TOPAZ_CLUSTER.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.SMALL_SAPPHIRE_BUD.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.MEDIUM_SAPPHIRE_BUD.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.LARGE_SAPPHIRE_BUD.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.SMALL_RUBY_BUD.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.MEDIUM_RUBY_BUD.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.LARGE_RUBY_BUD.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.SMALL_TOPAZ_BUD.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.MEDIUM_TOPAZ_BUD.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.LARGE_TOPAZ_BUD.get(), RenderType.cutout());
+
     }
 
     private void enqueueIMC(final InterModEnqueueEvent event)
