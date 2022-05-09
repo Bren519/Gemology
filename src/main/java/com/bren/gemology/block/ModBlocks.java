@@ -1,7 +1,9 @@
 package com.bren.gemology.block;
 
 import com.bren.gemology.Gemology;
+import com.bren.gemology.block.buds.BuddingRubyBlock;
 import com.bren.gemology.block.buds.BuddingSapphireBlock;
+import com.bren.gemology.block.buds.BuddingTopazBlock;
 import com.bren.gemology.item.ModItemGroup;
 import com.bren.gemology.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -42,8 +44,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> RUBY_ORE = registerBlock("ruby_ore", ()-> new Block(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK).color(MaterialColor.COLOR_RED)));
     public static final RegistryObject<Block> TOPAZ_ORE = registerBlock("topaz_ore", ()-> new Block(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK).color(MaterialColor.COLOR_YELLOW)));
     public static final RegistryObject<Block> SAPPHIRE_BUDDING_ORE = registerBlock("budding_sapphire", ()-> new BuddingSapphireBlock(BlockBehaviour.Properties.copy(Blocks.BUDDING_AMETHYST).color(MaterialColor.COLOR_BLUE)));
-    public static final RegistryObject<Block> RUBY_BUDDING_ORE = registerBlock("budding_ruby", ()-> new Block(BlockBehaviour.Properties.copy(Blocks.BUDDING_AMETHYST).color(MaterialColor.COLOR_RED)));
-    public static final RegistryObject<Block> TOPAZ_BUDDING_ORE = registerBlock("budding_topaz", ()-> new Block(BlockBehaviour.Properties.copy(Blocks.BUDDING_AMETHYST).color(MaterialColor.COLOR_YELLOW)));
+    public static final RegistryObject<Block> RUBY_BUDDING_ORE = registerBlock("budding_ruby", ()-> new BuddingRubyBlock(BlockBehaviour.Properties.copy(Blocks.BUDDING_AMETHYST).color(MaterialColor.COLOR_RED)));
+    public static final RegistryObject<Block> TOPAZ_BUDDING_ORE = registerBlock("budding_topaz", ()-> new BuddingTopazBlock(BlockBehaviour.Properties.copy(Blocks.BUDDING_AMETHYST).color(MaterialColor.COLOR_YELLOW)));
 
     public static final RegistryObject<Block> POLISHED_AMETHYST = registerBlock("amethyst_block", ()->
             new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK)
