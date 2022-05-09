@@ -21,5 +21,14 @@
   "block.gemology.topaz_cluster": "Topaz Cluster",
   "block.gemology.budding_sapphire": "Budding Sapphire",
   "block.gemology.budding_ruby": "Budding Ruby",
-  "block.gemology.budding_topaz": "Budding Topaz"
+  "block.gemology.budding_topaz": "Budding Topaz",
+  "block.gemology.large_sapphire_bud": "Large Sapphire Bud",
+  "block.gemology.medium_sapphire_bud": "Medium Sapphire Bud",
+  "block.gemology.small_sapphire_bud": "Small Sapphire Bud",
+  "block.gemology.large_ruby_bud": "Large Ruby Bud",
+  "block.gemology.medium_ruby_bud": "Medium Ruby Bud",
+  "block.gemology.small_ruby_bud": "Small Ruby Bud",
+  "block.gemology.large_topaz_bud": "Large Topaz Bud",
+  "block.gemology.medium_topaz_bud": "Medium Topaz Bud",
+  "block.gemology.small_Topaz_bud": "Small Topaz Bud"
 }
