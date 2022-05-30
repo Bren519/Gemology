@@ -13,6 +13,15 @@
     "gemology:topaz_cluster",
     "gemology:budding_sapphire",
     "gemology:budding_ruby",
-    "gemology:budding_topaz"
+    "gemology:budding_topaz",
+    "gemology:large_sapphire_bud",
+    "gemology:large_ruby_bud",
+    "gemology:large_topaz_bud",
+    "gemology:medium_sapphire_bud",
+    "gemology:medium_ruby_bud",
+    "gemology:medium_topaz_bud",
+    "gemology:small_sapphire_bud",
+    "gemology:small_ruby_bud",
+    "gemology:small_topaz_bud"
   ]
 }
