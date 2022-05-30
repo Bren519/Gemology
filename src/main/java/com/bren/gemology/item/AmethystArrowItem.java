@@ -1,8 +1,6 @@
 package com.bren.gemology.item;
 
-import com.bren.gemology.world.entity.ModEntityType;
 import com.bren.gemology.world.entity.projectile.AmethystArrow;
-import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.projectile.AbstractArrow;
@@ -15,7 +13,7 @@ import net.minecraft.world.level.Level;
 public class AmethystArrowItem extends ArrowItem {
     public final float damage;
 
-    public AmethystArrowItem(Properties p_40512_, float damage, EntityType type) {
+    public AmethystArrowItem(Properties p_40512_, float damage) {
         super(p_40512_);
         this.damage = damage;
     }
