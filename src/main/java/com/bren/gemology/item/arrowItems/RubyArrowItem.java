@@ -1,6 +1,5 @@
-package com.bren.gemology.item;
+package com.bren.gemology.item.arrowItems;
 
-import com.bren.gemology.world.entity.projectile.AmethystArrow;
 import com.bren.gemology.world.entity.projectile.RubyArrow;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;

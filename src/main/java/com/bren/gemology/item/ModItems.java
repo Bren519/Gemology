@@ -1,9 +1,11 @@
 package com.bren.gemology.item;
 
 import com.bren.gemology.Gemology;
-import net.minecraft.world.item.CreativeModeTab;
+import com.bren.gemology.item.arrowItems.AmethystArrowItem;
+import com.bren.gemology.item.arrowItems.RubyArrowItem;
+import com.bren.gemology.item.arrowItems.SapphireArrowItem;
+import com.bren.gemology.item.arrowItems.TopazArrowItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Rarity;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
