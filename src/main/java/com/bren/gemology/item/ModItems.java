@@ -1,6 +1,7 @@
 package com.bren.gemology.item;
 
 import com.bren.gemology.Gemology;
+import com.bren.gemology.world.entity.ModEntityType;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
@@ -38,4 +39,9 @@ public class ModItems {
     public static final RegistryObject<Item> TOPAZ_CRYSTAL = ITEMS.register("topaz_crystal", ()-> new Item(new Item.Properties()
             .tab(ModItemGroup.GEMOLOGY_GROUP)
     ));
+
+    public static final RegistryObject<Item> AMETHYST_TIPPED_ARROW = ITEMS.register("amethyst_arrow", ()-> new AmethystArrowItem(new Item.Properties().tab(ModItemGroup.GEMOLOGY_GROUP), 1.5f, ModEntityType.AMETHYST_ARROW.get()));
+    public static final RegistryObject<Item> SAPPHIRE_TIPPED_ARROW = ITEMS.register("sapphire_arrow", ()-> new AmethystArrowItem(new Item.Properties().tab(ModItemGroup.GEMOLOGY_GROUP), 1.5f, ModEntityType.SAPPHIRE_ARROW.get()));
+    public static final RegistryObject<Item> RUBY_TIPPED_ARROW = ITEMS.register("ruby_arrow", ()-> new AmethystArrowItem(new Item.Properties().tab(ModItemGroup.GEMOLOGY_GROUP), 1.5f, ModEntityType.RUBY_ARROW.get()));
+    public static final RegistryObject<Item> TOPAZ_TIPPED_ARROW = ITEMS.register("topaz_arrow", ()-> new AmethystArrowItem(new Item.Properties().tab(ModItemGroup.GEMOLOGY_GROUP), 1.5f, ModEntityType.TOPAZ_ARROW.get()));
 }
