@@ -2,6 +2,7 @@ package com.bren.gemology;
 
 import com.bren.gemology.block.ModBlocks;
 import com.bren.gemology.item.ModItems;
+import com.bren.gemology.world.entity.ModEntityType;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
@@ -36,6 +37,7 @@ public class Gemology
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModItems.register(eventBus);
         ModBlocks.register(eventBus);
+        ModEntityType.register(eventBus);
         eventBus.addListener(this::setup);
         // Register the enqueueIMC method for modloading
         eventBus.addListener(this::enqueueIMC);
