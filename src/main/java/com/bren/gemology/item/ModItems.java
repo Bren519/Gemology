@@ -40,7 +40,7 @@ public class ModItems {
     ));
 
     public static final RegistryObject<Item> AMETHYST_TIPPED_ARROW = ITEMS.register("amethyst_arrow", ()-> new AmethystArrowItem(new Item.Properties().tab(ModItemGroup.GEMOLOGY_GROUP), 1.5f));
-    //public static final RegistryObject<Item> SAPPHIRE_TIPPED_ARROW = ITEMS.register("sapphire_arrow", ()-> new AmethystArrowItem(new Item.Properties().tab(ModItemGroup.GEMOLOGY_GROUP), 1.5f));
-    //public static final RegistryObject<Item> RUBY_TIPPED_ARROW = ITEMS.register("ruby_arrow", ()-> new AmethystArrowItem(new Item.Properties().tab(ModItemGroup.GEMOLOGY_GROUP), 1.5f));
-    //public static final RegistryObject<Item> TOPAZ_TIPPED_ARROW = ITEMS.register("topaz_arrow", ()-> new AmethystArrowItem(new Item.Properties().tab(ModItemGroup.GEMOLOGY_GROUP), 1.5f));
+    public static final RegistryObject<Item> SAPPHIRE_TIPPED_ARROW = ITEMS.register("sapphire_arrow", ()-> new SapphireArrowItem(new Item.Properties().tab(ModItemGroup.GEMOLOGY_GROUP), 1.5f));
+    public static final RegistryObject<Item> RUBY_TIPPED_ARROW = ITEMS.register("ruby_arrow", ()-> new RubyArrowItem(new Item.Properties().tab(ModItemGroup.GEMOLOGY_GROUP), 1.5f));
+    public static final RegistryObject<Item> TOPAZ_TIPPED_ARROW = ITEMS.register("topaz_arrow", ()-> new TopazArrowItem(new Item.Properties().tab(ModItemGroup.GEMOLOGY_GROUP), 1.5f));
 }

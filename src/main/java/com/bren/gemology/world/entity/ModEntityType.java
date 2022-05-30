@@ -2,6 +2,9 @@ package com.bren.gemology.world.entity;
 
 import com.bren.gemology.Gemology;
 import com.bren.gemology.world.entity.projectile.AmethystArrow;
+import com.bren.gemology.world.entity.projectile.RubyArrow;
+import com.bren.gemology.world.entity.projectile.SapphireArrow;
+import com.bren.gemology.world.entity.projectile.TopazArrow;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
@@ -16,9 +19,9 @@ public class ModEntityType {
     //public static final EntityType<Arrow> ARROW = register("arrow", EntityType.Builder.<Arrow>of(Arrow::new, MobCategory.MISC).sized(0.5F, 0.5F).clientTrackingRange(4).updateInterval(20));
 
     public static final RegistryObject<EntityType<AmethystArrow>> AMETHYST_ARROW = ENTITES.register("amethyst_arrow", ()-> EntityType.Builder.<AmethystArrow>of(AmethystArrow::new, MobCategory.MISC).sized(0.5f, 0.5f).clientTrackingRange(4).updateInterval(20).build(new ResourceLocation(Gemology.MOD_ID, "amethyst_arrow").toString()));
-    public static final RegistryObject<EntityType<AmethystArrow>> SAPPHIRE_ARROW = ENTITES.register("sapphire_arrow", ()-> EntityType.Builder.<AmethystArrow>of(AmethystArrow::new, MobCategory.MISC).sized(0.5f, 0.5f).clientTrackingRange(4).updateInterval(20).build(new ResourceLocation(Gemology.MOD_ID, "sapphire_arrow").toString()));
-    public static final RegistryObject<EntityType<AmethystArrow>> RUBY_ARROW = ENTITES.register("ruby_arrow", ()-> EntityType.Builder.<AmethystArrow>of(AmethystArrow::new, MobCategory.MISC).sized(0.5f, 0.5f).clientTrackingRange(4).updateInterval(20).build(new ResourceLocation(Gemology.MOD_ID, "ruby_arrow").toString()));
-    public static final RegistryObject<EntityType<AmethystArrow>> TOPAZ_ARROW = ENTITES.register("topaz_arrow", ()-> EntityType.Builder.<AmethystArrow>of(AmethystArrow::new, MobCategory.MISC).sized(0.5f, 0.5f).clientTrackingRange(4).updateInterval(20).build(new ResourceLocation(Gemology.MOD_ID, "topaz_arrow").toString()));
+    public static final RegistryObject<EntityType<SapphireArrow>> SAPPHIRE_ARROW = ENTITES.register("sapphire_arrow", ()-> EntityType.Builder.<SapphireArrow>of(SapphireArrow::new, MobCategory.MISC).sized(0.5f, 0.5f).clientTrackingRange(4).updateInterval(20).build(new ResourceLocation(Gemology.MOD_ID, "sapphire_arrow").toString()));
+    public static final RegistryObject<EntityType<RubyArrow>> RUBY_ARROW = ENTITES.register("ruby_arrow", ()-> EntityType.Builder.<RubyArrow>of(RubyArrow::new, MobCategory.MISC).sized(0.5f, 0.5f).clientTrackingRange(4).updateInterval(20).build(new ResourceLocation(Gemology.MOD_ID, "ruby_arrow").toString()));
+    public static final RegistryObject<EntityType<TopazArrow>> TOPAZ_ARROW = ENTITES.register("topaz_arrow", ()-> EntityType.Builder.<TopazArrow>of(TopazArrow::new, MobCategory.MISC).sized(0.5f, 0.5f).clientTrackingRange(4).updateInterval(20).build(new ResourceLocation(Gemology.MOD_ID, "topaz_arrow").toString()));
 
     public static void register(IEventBus eventBus){
         ENTITES.register(eventBus);
